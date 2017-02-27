@@ -1,0 +1,101 @@
+﻿body {
+    font-family: sans-serif;
+}
+
+.card {
+    width: 350px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.header {
+    margin: 10px;
+}
+
+.icon-error {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: red;
+    border-radius: 100%;
+}
+
+.icon-ok {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: green;
+    border-radius: 100%;
+}
+
+.icon-error i, .icon-ok i {
+    line-height: 2.1;
+    color: white;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.pull-right {
+    float: right;
+}
+
+.more-options {
+    line-height: 1.1;
+    font-size: 27px;
+    color: gray;
+}
+
+.name, .description, .path {
+    margin: 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f9695;
+}
+
+.description {
+    font-weight: bold;
+    color: gray;
+}
+
+.path {
+    font-weight: bold;
+    color: gray;
+}
+
+.footer {
+    border-top: 2px solid gray;
+}
+
+.footer-left, footer-right {
+    width: 50%;
+}
+
+.footer-left {
+    border-right: 2px solid gray;
+}
+
+    .footer-left div {
+        margin: 10px 20px;
+    }
+
+.footer-right div {
+    margin: 10px 20px;
+}
+
+.vm-label {
+    color: #1f9695;
+    font-weight: bold;
+}
+
+.error-label, .error-value {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+﻿[
+  {
+    "status": "Error",
+    "name": "Critical Vms",
+    "description": "All my business-critical Vms",
+    "path": "/TINTRI/CRITICAL-VMS",
+    "vm": 16,
+    "errors": 2
+  },
+  {
+    "status": "OK",
+    "name": "Critical Vms",
+    "description": "All my business-critical Vms",
+    "path": "/TINTRI/CRITICAL-VMS",
+    "vm": 18,
+    "errors": 0
+  },
+   {
+        "status": "Error",
+        "name": "Critical Vms",
+        "description": "All my business-critical Vms",
+        "path": "/TINTRI/CRITICAL-VMS",
+        "vm": 20,
+        "errors": 40
+    }
+]
